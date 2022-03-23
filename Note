@@ -1,0 +1,5 @@
+static inline struct thread_info *task_thread_info(struct task_struct *task)
+{
+        return &task->thread_info;
+}
+
